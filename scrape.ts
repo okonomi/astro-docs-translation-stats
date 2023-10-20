@@ -3,7 +3,7 @@ import cheerio from 'cheerio'
 type ProgressSummary = {
   timestamp: string
   done: number
-  "need pdating": number
+  "need updating": number
   missing: number
 }
 
@@ -29,7 +29,7 @@ if (!matches) {
 const progressSummary: ProgressSummary = {
   timestamp: new Date().toISOString(),
   done: parseInt(matches[1]),
-  "need pdating": parseInt(matches[2]),
+  "need updating": parseInt(matches[2]),
   missing: parseInt(matches[3]),
 }
 console.log(JSON.stringify(progressSummary))
