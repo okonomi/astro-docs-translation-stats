@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astro Docs Translation Stats (ja)</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      fetch("./data.jsonl")
+        .then(response => response.text())
+        .then(data => {
+          const lines = data.split("\n").filter(Boolean)
+          const parsedData = lines.map(line => JSON.parse(line))
+
+          const labels = parsedData.map(item => item.timestamp)
+          const doneData = parsedData.map(item => item.done)
+          const needUpdatingData = parsedData.map(item => item["need updating"])
+          const missingData = parsedData.map(item => item.missing)
+
+          const ctx = document.getElementById("stats")
+          new Chart(ctx, {
+            type: "line",
+            data: {
+              labels: labels,
+              datasets: [
+                {
+                  label: "Done",
+                  data: doneData,
+                  borderColor: "rgba(75, 192, 192, 1)",
+                  backgroundColor: "rgba(75, 192, 192, 0.2)",
+                  stack: "Stack 0",
+                  fill: true,
+                },
+                {
+                  label: "Need Updating",
+                  data: needUpdatingData,
+                  borderColor: "rgba(255, 206, 86, 1)",
+                  backgroundColor: "rgba(255, 206, 86, 0.2)",
+                  stack: "Stack 0",
+                  fill: "-1",
+                },
+                {
+                  label: "Missing",
+                  data: missingData,
+                  borderColor: "rgba(255, 99, 132, 1)",
+                  backgroundColor: "rgba(255, 99, 132, 0.2)",
+                  stack: "Stack 0",
+                  fill: "-1",
+                }
+              ]
+            },
+            options: {
+              responsive: true,
+              title: {
+                display: true,
+                text: "Progress Over Time"
+              },
+              tooltips: {
+                mode: "index",
+                intersect: false,
+              },
+              hover: {
+                mode: "nearest",
+                intersect: true
+              },
+              scales: {
+                x: {
+                  type: "time",
+                  time: {
+                    unit: "day",
+                    // displayFormats: {
+                    //   day: 'YYYY/MM/DD'
+                    // }
+                  },
+                },
+                y: {
+                  display: true,
+                  scaleLabel: {
+                    display: true,
+                    labelString: "Value"
+                  },
+                  stacked: true
+                }
+              }
+            }
+          });
+
+        })
+    })
+  </script>
+</head>
+
+<body>
+  <h1>Astro Docs Translation Stats (ja)</h1>
+  <canvas id="stats"></canvas>
+</body>
+
+</html>
