@@ -16,7 +16,7 @@
 
           const labels = parsedData.map(item => item.timestamp)
           const doneData = parsedData.map(item => item.done)
-          const needUpdatingData = parsedData.map(item => item["need updating"])
+          const outdatedData = parsedData.map(item => item.outdated)
           const missingData = parsedData.map(item => item.missing)
 
           const ctx = document.getElementById("stats")
@@ -34,8 +34,8 @@
                   fill: true,
                 },
                 {
-                  label: "Need Updating",
-                  data: needUpdatingData,
+                  label: "Outdated",
+                  data: outdatedData,
                   borderColor: "rgba(255, 206, 86, 1)",
                   backgroundColor: "rgba(255, 206, 86, 0.2)",
                   stack: "Stack 0",

@@ -1,62 +1,62 @@
-{"timestamp":"2023-10-18T13:49:45.718Z","done":68,"need updating":47,"missing":124}
-{"timestamp":"2023-10-20T12:15:05.505Z","done":67,"need updating":48,"missing":124}
-{"timestamp":"2023-10-21T00:11:54.325Z","done":67,"need updating":48,"missing":125}
-{"timestamp":"2023-10-21T22:03:45.425Z","done":67,"need updating":48,"missing":125}
-{"timestamp":"2023-10-22T22:03:52.557Z","done":66,"need updating":49,"missing":125}
-{"timestamp":"2023-10-23T22:03:57.222Z","done":66,"need updating":49,"missing":125}
-{"timestamp":"2023-10-24T22:03:49.755Z","done":66,"need updating":49,"missing":125}
-{"timestamp":"2023-10-25T22:03:58.853Z","done":66,"need updating":49,"missing":125}
-{"timestamp":"2023-10-26T22:03:45.397Z","done":65,"need updating":50,"missing":125}
-{"timestamp":"2023-10-27T22:03:52.597Z","done":64,"need updating":51,"missing":125}
-{"timestamp":"2023-10-28T22:03:42.876Z","done":64,"need updating":51,"missing":125}
-{"timestamp":"2023-10-29T22:03:53.093Z","done":64,"need updating":51,"missing":125}
-{"timestamp":"2023-10-30T22:03:53.923Z","done":64,"need updating":51,"missing":126}
-{"timestamp":"2023-10-31T22:03:46.146Z","done":64,"need updating":52,"missing":125}
-{"timestamp":"2023-11-01T22:03:52.677Z","done":64,"need updating":52,"missing":125}
-{"timestamp":"2023-11-02T22:03:49.037Z","done":65,"need updating":53,"missing":123}
-{"timestamp":"2023-11-03T22:03:58.151Z","done":65,"need updating":53,"missing":123}
-{"timestamp":"2023-11-04T22:03:50.245Z","done":65,"need updating":53,"missing":123}
-{"timestamp":"2023-11-05T22:03:43.262Z","done":64,"need updating":54,"missing":123}
-{"timestamp":"2023-11-06T22:03:51.041Z","done":64,"need updating":54,"missing":123}
-{"timestamp":"2023-11-07T22:03:53.557Z","done":64,"need updating":54,"missing":123}
-{"timestamp":"2023-11-08T22:03:49.398Z","done":64,"need updating":54,"missing":124}
-{"timestamp":"2023-11-09T22:03:57.010Z","done":63,"need updating":55,"missing":127}
-{"timestamp":"2023-11-10T22:03:44.964Z","done":63,"need updating":55,"missing":127}
-{"timestamp":"2023-11-11T22:03:48.063Z","done":62,"need updating":56,"missing":127}
-{"timestamp":"2023-11-12T22:03:40.017Z","done":62,"need updating":56,"missing":127}
-{"timestamp":"2023-11-13T22:03:52.562Z","done":59,"need updating":59,"missing":127}
-{"timestamp":"2023-11-14T22:04:01.096Z","done":59,"need updating":59,"missing":127}
-{"timestamp":"2023-11-15T22:03:55.316Z","done":59,"need updating":59,"missing":127}
-{"timestamp":"2023-11-16T22:03:46.802Z","done":60,"need updating":58,"missing":127}
-{"timestamp":"2023-11-17T22:03:51.923Z","done":60,"need updating":58,"missing":127}
-{"timestamp":"2023-11-18T22:03:45.408Z","done":60,"need updating":58,"missing":127}
-{"timestamp":"2023-11-19T22:03:42.164Z","done":60,"need updating":58,"missing":127}
-{"timestamp":"2023-11-20T22:03:56.298Z","done":58,"need updating":60,"missing":127}
-{"timestamp":"2023-11-21T22:03:54.684Z","done":58,"need updating":60,"missing":127}
-{"timestamp":"2023-11-22T22:03:41.902Z","done":58,"need updating":60,"missing":127}
-{"timestamp":"2023-11-23T22:03:53.679Z","done":58,"need updating":60,"missing":127}
-{"timestamp":"2023-11-24T22:03:47.867Z","done":58,"need updating":60,"missing":127}
-{"timestamp":"2023-11-25T22:03:52.946Z","done":58,"need updating":60,"missing":128}
-{"timestamp":"2023-11-26T22:03:48.134Z","done":58,"need updating":60,"missing":128}
-{"timestamp":"2023-11-27T22:03:57.387Z","done":59,"need updating":59,"missing":128}
-{"timestamp":"2023-11-28T22:03:53.828Z","done":59,"need updating":59,"missing":128}
-{"timestamp":"2023-11-29T22:03:58.607Z","done":59,"need updating":59,"missing":128}
-{"timestamp":"2023-11-30T22:03:58.508Z","done":59,"need updating":59,"missing":128}
-{"timestamp":"2023-12-01T22:03:53.141Z","done":64,"need updating":55,"missing":127}
-{"timestamp":"2023-12-02T22:03:37.871Z","done":63,"need updating":56,"missing":127}
-{"timestamp":"2023-12-03T22:03:46.304Z","done":57,"need updating":62,"missing":128}
-{"timestamp":"2023-12-04T22:03:53.843Z","done":57,"need updating":62,"missing":128}
-{"timestamp":"2023-12-05T22:03:48.930Z","done":58,"need updating":61,"missing":128}
-{"timestamp":"2023-12-06T22:03:59.049Z","done":60,"need updating":59,"missing":128}
-{"timestamp":"2023-12-07T22:04:03.408Z","done":65,"need updating":55,"missing":127}
-{"timestamp":"2023-12-08T22:03:52.241Z","done":63,"need updating":57,"missing":127}
-{"timestamp":"2023-12-09T22:03:45.796Z","done":64,"need updating":56,"missing":127}
-{"timestamp":"2023-12-10T22:03:44.028Z","done":64,"need updating":56,"missing":127}
-{"timestamp":"2023-12-11T22:03:52.120Z","done":64,"need updating":56,"missing":127}
-{"timestamp":"2023-12-12T22:03:54.624Z","done":64,"need updating":56,"missing":127}
-{"timestamp":"2023-12-13T22:03:50.260Z","done":63,"need updating":57,"missing":127}
-{"timestamp":"2023-12-14T22:03:58.611Z","done":63,"need updating":57,"missing":127}
-{"timestamp":"2023-12-15T22:03:53.484Z","done":62,"need updating":58,"missing":127}
-{"timestamp":"2023-12-16T22:03:52.597Z","done":62,"need updating":58,"missing":127}
-{"timestamp":"2023-12-17T22:03:45.154Z","done":62,"need updating":58,"missing":127}
-{"timestamp":"2023-12-18T22:03:55.523Z","done":62,"need updating":58,"missing":127}
+{"timestamp":"2023-10-18T13:49:45.718Z","done":68,"outdated":47,"missing":124}
+{"timestamp":"2023-10-20T12:15:05.505Z","done":67,"outdated":48,"missing":124}
+{"timestamp":"2023-10-21T00:11:54.325Z","done":67,"outdated":48,"missing":125}
+{"timestamp":"2023-10-21T22:03:45.425Z","done":67,"outdated":48,"missing":125}
+{"timestamp":"2023-10-22T22:03:52.557Z","done":66,"outdated":49,"missing":125}
+{"timestamp":"2023-10-23T22:03:57.222Z","done":66,"outdated":49,"missing":125}
+{"timestamp":"2023-10-24T22:03:49.755Z","done":66,"outdated":49,"missing":125}
+{"timestamp":"2023-10-25T22:03:58.853Z","done":66,"outdated":49,"missing":125}
+{"timestamp":"2023-10-26T22:03:45.397Z","done":65,"outdated":50,"missing":125}
+{"timestamp":"2023-10-27T22:03:52.597Z","done":64,"outdated":51,"missing":125}
+{"timestamp":"2023-10-28T22:03:42.876Z","done":64,"outdated":51,"missing":125}
+{"timestamp":"2023-10-29T22:03:53.093Z","done":64,"outdated":51,"missing":125}
+{"timestamp":"2023-10-30T22:03:53.923Z","done":64,"outdated":51,"missing":126}
+{"timestamp":"2023-10-31T22:03:46.146Z","done":64,"outdated":52,"missing":125}
+{"timestamp":"2023-11-01T22:03:52.677Z","done":64,"outdated":52,"missing":125}
+{"timestamp":"2023-11-02T22:03:49.037Z","done":65,"outdated":53,"missing":123}
+{"timestamp":"2023-11-03T22:03:58.151Z","done":65,"outdated":53,"missing":123}
+{"timestamp":"2023-11-04T22:03:50.245Z","done":65,"outdated":53,"missing":123}
+{"timestamp":"2023-11-05T22:03:43.262Z","done":64,"outdated":54,"missing":123}
+{"timestamp":"2023-11-06T22:03:51.041Z","done":64,"outdated":54,"missing":123}
+{"timestamp":"2023-11-07T22:03:53.557Z","done":64,"outdated":54,"missing":123}
+{"timestamp":"2023-11-08T22:03:49.398Z","done":64,"outdated":54,"missing":124}
+{"timestamp":"2023-11-09T22:03:57.010Z","done":63,"outdated":55,"missing":127}
+{"timestamp":"2023-11-10T22:03:44.964Z","done":63,"outdated":55,"missing":127}
+{"timestamp":"2023-11-11T22:03:48.063Z","done":62,"outdated":56,"missing":127}
+{"timestamp":"2023-11-12T22:03:40.017Z","done":62,"outdated":56,"missing":127}
+{"timestamp":"2023-11-13T22:03:52.562Z","done":59,"outdated":59,"missing":127}
+{"timestamp":"2023-11-14T22:04:01.096Z","done":59,"outdated":59,"missing":127}
+{"timestamp":"2023-11-15T22:03:55.316Z","done":59,"outdated":59,"missing":127}
+{"timestamp":"2023-11-16T22:03:46.802Z","done":60,"outdated":58,"missing":127}
+{"timestamp":"2023-11-17T22:03:51.923Z","done":60,"outdated":58,"missing":127}
+{"timestamp":"2023-11-18T22:03:45.408Z","done":60,"outdated":58,"missing":127}
+{"timestamp":"2023-11-19T22:03:42.164Z","done":60,"outdated":58,"missing":127}
+{"timestamp":"2023-11-20T22:03:56.298Z","done":58,"outdated":60,"missing":127}
+{"timestamp":"2023-11-21T22:03:54.684Z","done":58,"outdated":60,"missing":127}
+{"timestamp":"2023-11-22T22:03:41.902Z","done":58,"outdated":60,"missing":127}
+{"timestamp":"2023-11-23T22:03:53.679Z","done":58,"outdated":60,"missing":127}
+{"timestamp":"2023-11-24T22:03:47.867Z","done":58,"outdated":60,"missing":127}
+{"timestamp":"2023-11-25T22:03:52.946Z","done":58,"outdated":60,"missing":128}
+{"timestamp":"2023-11-26T22:03:48.134Z","done":58,"outdated":60,"missing":128}
+{"timestamp":"2023-11-27T22:03:57.387Z","done":59,"outdated":59,"missing":128}
+{"timestamp":"2023-11-28T22:03:53.828Z","done":59,"outdated":59,"missing":128}
+{"timestamp":"2023-11-29T22:03:58.607Z","done":59,"outdated":59,"missing":128}
+{"timestamp":"2023-11-30T22:03:58.508Z","done":59,"outdated":59,"missing":128}
+{"timestamp":"2023-12-01T22:03:53.141Z","done":64,"outdated":55,"missing":127}
+{"timestamp":"2023-12-02T22:03:37.871Z","done":63,"outdated":56,"missing":127}
+{"timestamp":"2023-12-03T22:03:46.304Z","done":57,"outdated":62,"missing":128}
+{"timestamp":"2023-12-04T22:03:53.843Z","done":57,"outdated":62,"missing":128}
+{"timestamp":"2023-12-05T22:03:48.930Z","done":58,"outdated":61,"missing":128}
+{"timestamp":"2023-12-06T22:03:59.049Z","done":60,"outdated":59,"missing":128}
+{"timestamp":"2023-12-07T22:04:03.408Z","done":65,"outdated":55,"missing":127}
+{"timestamp":"2023-12-08T22:03:52.241Z","done":63,"outdated":57,"missing":127}
+{"timestamp":"2023-12-09T22:03:45.796Z","done":64,"outdated":56,"missing":127}
+{"timestamp":"2023-12-10T22:03:44.028Z","done":64,"outdated":56,"missing":127}
+{"timestamp":"2023-12-11T22:03:52.120Z","done":64,"outdated":56,"missing":127}
+{"timestamp":"2023-12-12T22:03:54.624Z","done":64,"outdated":56,"missing":127}
+{"timestamp":"2023-12-13T22:03:50.260Z","done":63,"outdated":57,"missing":127}
+{"timestamp":"2023-12-14T22:03:58.611Z","done":63,"outdated":57,"missing":127}
+{"timestamp":"2023-12-15T22:03:53.484Z","done":62,"outdated":58,"missing":127}
+{"timestamp":"2023-12-16T22:03:52.597Z","done":62,"outdated":58,"missing":127}
+{"timestamp":"2023-12-17T22:03:45.154Z","done":62,"outdated":58,"missing":127}
+{"timestamp":"2023-12-18T22:03:55.523Z","done":62,"outdated":58,"missing":127}

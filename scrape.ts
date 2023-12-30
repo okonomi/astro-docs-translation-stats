@@ -3,7 +3,7 @@ import cheerio from 'cheerio'
 type ProgressSummary = {
   timestamp: string
   done: number
-  "need updating": number
+  outdated: number
   missing: number
 }
 
@@ -21,7 +21,7 @@ if (!progress) {
 
 const progressSummaryText = $('summary > .progress-summary', progress).text()
 
-const matches = progressSummaryText.match(/(\d+) done, (\d+) need updating, (\d+) missing/)
+const matches = progressSummaryText.match(/(\d+) done, (\d+) outdated, (\d+) missing/)
 if (!matches) {
   throw new Error('Not found progress summary');
 }
@@ -29,7 +29,7 @@ if (!matches) {
 const progressSummary: ProgressSummary = {
   timestamp: new Date().toISOString(),
   done: parseInt(matches[1]),
-  "need updating": parseInt(matches[2]),
+  outdated: parseInt(matches[2]),
   missing: parseInt(matches[3]),
 }
 console.log(JSON.stringify(progressSummary))
