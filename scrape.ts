@@ -19,7 +19,7 @@ if (!progress) {
   throw new Error('Not found progress summary');
 }
 
-const progressSummaryText = $('summary > .progress-summary', progress).text()
+const progressSummaryText = $('summary > .progress-summary', progress).text().replace(/\s+/g, ' ')
 
 const matches = progressSummaryText.match(/(\d+) done, (\d+) outdated, (\d+) missing/)
 if (!matches) {
