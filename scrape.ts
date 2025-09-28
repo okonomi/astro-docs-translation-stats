@@ -9,7 +9,10 @@ type ProgressSummary = {
 
 const url = 'https://i18n.docs.astro.build/';
 
-const response = await fetch(url);
+const response = await fetch(url, {
+  signal: AbortSignal.timeout(5000),
+  verbose: true,
+});
 const html = await response.text();
 const $ = cheerio.load(html);
 const progress = $('main > .limit-to-viewport > details')
